@@ -1,0 +1,28 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#333333f0;
+}
+
+h1{
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+h2{
+   text-align:left;
+   border-left: solid 5px #0ea072; 
+   padding-left: 10px;
+}
+p{
+    text-align: justify;
+    line-height: 1.5;
+}
+.destaque{
+    font-weight: bold;
+    font-size: 22px;
+    color: #0ea072;
+}
+ul{
+    background-color: #3ddba9;
+}

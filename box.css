@@ -1,0 +1,15 @@
+div{
+    background-color:#129ac7 ;
+    width: 200px;
+    height: 200px;
+    padding-left: 40px;
+    padding-top: 60px;
+    border-left: solid 5px #da0a9b;
+    font-size:18px;
+    font-weight: 900;
+}
+.caixa2{
+    background-color:#24c712 ;
+    margin-top: 50px;
+    margin-left: 100px;
+}
