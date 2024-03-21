@@ -1,0 +1,18 @@
+/*Seletor Universal - CSS Reset*/ 
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: #1ea9d7;
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    background-color: #9c1ed7;
+    padding: 10px;
+    
+}
