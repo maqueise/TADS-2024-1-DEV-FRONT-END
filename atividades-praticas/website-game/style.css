@@ -1,49 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+    margin: 0; /* Remove a margem externa de todos os elementos */
+    padding: 0; /* Remove o preenchimento interno de todos os elementos */
+    box-sizing: border-box; /* Inclui o preenchimento e a borda na largura/altura total do elemento */
+    font-family: sans-serif; /* Define a fonte padrão para todos os elementos como sans-serif */
 }
 
 html,
 body {
-    height: 100%;
+    height: 100%; /* Define a altura do html e do corpo para ocupar toda a altura da janela do navegador */
 }
 
 .hero {
-    background-image: url("assets/bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 16px;
+    background-image: url("assets/bg.jpg"); /* Define a imagem de fundo do elemento com a classe .hero */
+    background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
+    background-size: cover; /* Faz com que a imagem de fundo cubra todo o elemento */
+    width: 100%; /* Define a largura do elemento para ocupar toda a largura disponível */
+    height: 100%; /* Define a altura do elemento para ocupar toda a altura disponível */
+    color: white; /* Define a cor do texto dentro do elemento para branco */
+    display: flex; /* Define o tipo de exibição para flex, o que permite alinhar e justificar o conteúdo facilmente */
+    flex-direction: column; /* Define a direção do layout flexível para a coluna, o que significa que os itens são empilhados verticalmente */
+    align-items: center; /* Centraliza os itens ao longo do eixo transversal (neste caso, horizontalmente) */
+    justify-content: center; /* Centraliza os itens ao longo do eixo principal (neste caso, verticalmente) */
+    gap: 16px; /* Define o espaço entre os itens flexíveis */
 }
 
 h1 {
-    font-family: "Creepster", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 70px;
-    color: #ef4444;
+    font-family: "Creepster", system-ui; /* Define a fonte do elemento h1 para "Creepster", com "system-ui" como fallback */
+    font-weight: 400; /* Define a espessura da fonte */
+    font-style: normal; /* Define o estilo da fonte para normal */
+    font-size: 70px; /* Define o tamanho da fonte */
+    color: #ef4444; /* Define a cor da fonte */
 }
 
 .hero-text {
-    font-size: 24px;
+    font-size: 24px; /* Define o tamanho da fonte para o elemento com a classe .hero-text */
 }
 
 .hero-text span {
-    color: #ef4444;
+    color: #ef4444; /* Define a cor da fonte para qualquer elemento span dentro de um elemento com a classe .hero-text */
 }
 
 .hero p {
-    font-size: 20px;
+    font-size: 20px; /* Define o tamanho da fonte para qualquer elemento p dentro de um elemento com a classe .hero */
 }
 
 .btn {
