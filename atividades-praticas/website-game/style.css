@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
 
 * {
     margin: 0;
@@ -13,7 +13,7 @@ body {
 }
 
 .hero {
-    background-image: url('assets/bg.jpg');
+    background-image: url("assets/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -31,7 +31,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 70px;
-    color: #EF4444;
+    color: #ef4444;
 }
 
 .hero-text {
@@ -39,7 +39,7 @@ h1 {
 }
 
 .hero-text span {
-    color: #EF4444;
+    color: #ef4444;
 }
 
 .hero p {
@@ -47,16 +47,18 @@ h1 {
 }
 
 .btn {
-    background-color: #EF4444;
-    padding: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    font-size: 16px;
-    border-radius: 8px;
-    margin-top: 24px;
+    .btn {
+        background-color: #ef4444; /* Define a cor de fundo do botão */
+        padding: 16px; /* Adiciona espaço ao redor do conteúdo do botão */
+        display: flex; /* Define o tipo de exibição para flex, o que permite alinhar e justificar o conteúdo facilmente */
+        justify-content: center; /* Centraliza o conteúdo horizontalmente */
+        align-items: center; /* Centraliza o conteúdo verticalmente */
+        width: 200px; /* Define a largura do botão */
+        text-decoration: none; /* Remove qualquer decoração de texto (como sublinhado) */
+        text-transform: uppercase; /* Transforma o texto em maiúsculas */
+        color: white; /* Define a cor do texto */
+        font-size: 16px; /* Define o tamanho do texto */
+        border-radius: 8px; /* Arredonda os cantos do botão */
+        margin-top: 24px; /* Adiciona espaço acima do botão */
+    }
 }
