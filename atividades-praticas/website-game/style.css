@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
-
 * {
     margin: 0; /* Remove a margem externa de todos os elementos */
     padding: 0; /* Remove o preenchimento interno de todos os elementos */
@@ -47,7 +45,6 @@ h1 {
 }
 
 .btn {
-    .btn {
         background-color: #ef4444; /* Define a cor de fundo do botão */
         padding: 16px; /* Adiciona espaço ao redor do conteúdo do botão */
         display: flex; /* Define o tipo de exibição para flex, o que permite alinhar e justificar o conteúdo facilmente */
@@ -60,5 +57,4 @@ h1 {
         font-size: 16px; /* Define o tamanho do texto */
         border-radius: 8px; /* Arredonda os cantos do botão */
         margin-top: 24px; /* Adiciona espaço acima do botão */
-    }
 }
