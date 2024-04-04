@@ -9,6 +9,9 @@ html,
 body {
     height: 100%; /* Define a altura do html e do corpo para ocupar toda a altura da janela do navegador */
 }
+body{
+    background-color: #030712;
+}
 
 .hero {
     background-image: url("assets/bg.jpg"); /* Define a imagem de fundo do elemento com a classe .hero */
@@ -30,6 +33,12 @@ h1 {
     font-style: normal; /* Define o estilo da fonte para normal */
     font-size: 70px; /* Define o tamanho da fonte */
     color: #ef4444; /* Define a cor da fonte */
+}
+h2{
+    color: white;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
 }
 
 .hero-text {
@@ -57,4 +66,44 @@ h1 {
         font-size: 16px; /* Define o tamanho do texto */
         border-radius: 8px; /* Arredonda os cantos do botão */
         margin-top: 24px; /* Adiciona espaço acima do botão */
+}
+.btn i{
+    font-size: 32px;
+}
+.sinopse{
+    width: 100%;
+    height: 100%;
+    padding: 56px;
+   
+    text-align: center;
+}
+.sinopse .flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 36px;
+}
+.sinopse p{
+    color: white;
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.sinopse .main-p{
+    text-align: center;
+}
+.sinopse p span{
+    color: #ef4444;
+    font-family: "Creepster", system-ui;
+    font-size: 32px;
+}
+.sinopse img{
+    width: 100%;
+    mask-image: url('assets/mask.svg');
+    mask-size: cover;
+
+}
+.sinopse .text{
+    width: 700px;
 }
